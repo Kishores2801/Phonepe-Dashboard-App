@@ -79,7 +79,7 @@ with maintab1:
                 line_opacity=0.5,
                 legend_name=col).add_to(m)
 
-        st.components.v1.html(m._repr_html_(),height=500)
+        components.html(m._repr_html_(),height=500)
 
     with col2:
         st.info(
@@ -407,7 +407,7 @@ with maintab2:
                 fill_opacity=0.7,
                 line_opacity=0.5,
                 legend_name=colo2).add_to(m)
-        st.components.v1.html(m._repr_html_(),height=500)
+        components.html(m._repr_html_(),height=500)
     
    with col2:
         st.info(
@@ -769,7 +769,7 @@ with maintab3:
                         fill_opacity=0.7,
                         line_opacity=0.5,
                         legend_name=title).add_to(m)
-        st.components.v1.html(m._repr_html_(), height=500)
+        components.html(m._repr_html_(), height=500)
 
     with col2:
         st.info(
