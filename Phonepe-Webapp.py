@@ -802,8 +802,8 @@ with maintab3:
                             yaxis_title=title,
                             title_x=0.2,  # Align title to the center horizontally,
                             title_y=0.9,
-                            title_font_size=30,
-                            font_size=25
+                            title_font_size=20,
+                            font_size=10
                         )
             st.plotly_chart(fig, use_container_width=True)
         
@@ -916,8 +916,8 @@ with maintab3:
                             yaxis_title=title,
                             title_x=0.2,  # Align title to the center horizontally,
                             title_y=0.9,
-                            title_font_size=30,
-                            font_size=25
+                            title_font_size=20,
+                            font_size=10
 
                         )
             st.plotly_chart(fig, use_container_width=True)
