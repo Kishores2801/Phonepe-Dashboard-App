@@ -79,7 +79,7 @@ with maintab1:
                 line_opacity=0.5,
                 legend_name=col).add_to(m)
 
-        st.write(m._repr_html_(), unsafe_allow_html=True, height=500)
+        st.components.v1.html(m._repr_html_(),height=500)
 
     with col2:
         st.info(
@@ -407,7 +407,7 @@ with maintab2:
                 fill_opacity=0.7,
                 line_opacity=0.5,
                 legend_name=colo2).add_to(m)
-        st.write(m._repr_html_(), unsafe_allow_html=True, height=500)
+        st.components.v1.html(m._repr_html_(),height=500)
     
    with col2:
         st.info(
@@ -843,7 +843,7 @@ with maintab3:
                         title_font_size=20,
                         font_size=10
                     )
-            st.write(m._repr_html_(), unsafe_allow_html=True, height=500)
+            st.plotly_chart(fig, use_container_width=True)
 
             
         with Aggcol2:
