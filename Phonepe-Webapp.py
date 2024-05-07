@@ -5,8 +5,6 @@ import streamlit as st
 import warnings
 import json
 import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 st.set_page_config(page_title="Phone-pe Web Dashboard App",layout="wide")
@@ -80,7 +78,7 @@ with maintab1:
                 line_opacity=0.5,
                 legend_name=col).add_to(m)
 
-        st.components.v1.html(m._repr_html_(),height=750)
+        st.components.v1.html(m._repr_html_(),height=500)
 
     with col2:
         st.info(
@@ -408,13 +406,13 @@ with maintab2:
                 fill_opacity=0.7,
                 line_opacity=0.5,
                 legend_name=colo2).add_to(m)
-        st.components.v1.html(m._repr_html_(),height=750)
+        st.components.v1.html(m._repr_html_(),height=500)
     
    with col2:
         st.info(
             '''
             **Details of Chloropeth Map:**
-            - More the color/shade varies towards purple, more Insurance premium were made in a given period.
+            - More the color/shade varies towards purple, more transaction made in a given period.
             - We can change the Years, Quarters and Columns to see variety of Chloropeth Map.
             - The Columns options are Amount, Average Transaction.
             - The Quarters are filtered based on Years. 
@@ -770,13 +768,13 @@ with maintab3:
                         fill_opacity=0.7,
                         line_opacity=0.5,
                         legend_name=title).add_to(m)
-        st.components.v1.html(m._repr_html_(), height=750)
+        st.components.v1.html(m._repr_html_(), height=500)
 
     with col2:
         st.info(
                 '''
                 **Details of Chloropeth Map:**
-                - More the color/shade varies towards purple, more Insurance premium were made in a given period.
+                - More the color/shade varies towards purple, more Usage in given period.
                 - We can change the Years, Quarters and Columns to see variety of Chloropeth Map.
                 - The Columns options are Count of Users and App Opening %.
                 - The Quarters are filtered based on Years.
