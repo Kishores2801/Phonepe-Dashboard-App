@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import folium
 import streamlit as st
+import streamlit.components.v1 as components
 import warnings
 import json
 import plotly.express as px
