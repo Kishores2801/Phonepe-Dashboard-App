@@ -15,5 +15,5 @@ Link: https://phonepe-web-dashboard.streamlit.app/
 - **Interactive Visualization:** Interact with the data dynamically through filters, dropdowns, and sliders. Customize your view to focus on the metrics most relevant to your analysis.
 - **Responsive Design:** Access the dashboard seamlessly across devices, including desktops, tablets, and smartphones. Experience consistent functionality and performance regardless of screen size.
 
-Hosted on Firebase, our PhonePe Dashboard ensures secure and reliable access to insights anytime, anywhere. Whether you're a business analyst, product manager, or executive, this dashboard equips you with the tools to unlock actionable insights and drive strategic decisions within the PhonePe ecosystem.
+Hosted on Streamlit, our PhonePe Dashboard ensures secure and reliable access to insights anytime, anywhere. Whether you're a business analyst, product manager, or executive, this dashboard equips you with the tools to unlock actionable insights and drive strategic decisions within the PhonePe ecosystem.
 
